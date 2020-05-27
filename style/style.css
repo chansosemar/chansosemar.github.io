@@ -95,9 +95,10 @@ body, html {
 	margin-top: -100px;
 }
 	.hero span {
-		position: relative;
-		top: 35%;
-		align-items: center;
+		position: absolute;
+		top: 25%;
+		left:50%;
+		text-align: center;
 		transform: translate(-50%,-50%);
 		overflow: hidden;
 		text-align:center;
@@ -223,6 +224,7 @@ footer {
 		margin-top: -100px;
 	}
 	.hero span {
+		top: 30%;
 }
 
 .main-content {
