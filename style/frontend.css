@@ -6,6 +6,7 @@ body, html {
 	background: #efefef;
 	height: 100%;
 	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
 /*	margin-bottom: 2500px; jangan lupa di apus
 */}
 
