@@ -100,7 +100,30 @@ body, html {
 	color: #00daff;
 	font-weight: bold;
 }
-.card-content	{
+.content	{
+	width: 80%;
+	margin: 0px auto;
+}
+.content-nav{
+	width: 20%;
+	margin: 20px auto;
+	text-align: center;
+}
+.content .nav-link .active {
+	border-bottom: 2px solid #e63946;
+}
+.content .nav-link .non-active {
+	color: rgba(20,20,20,0.8);
+}
+.content .nav-link .non-active:hover {
+	color: #e63946;
+	transition: 0.5s;
+}
+.content img {
+	width: 100%;
+	object-fit: cover;
+}
+./*card-content	{
 	display: flex;
 	justify-content: space-around;
 	width: 90%;
@@ -127,7 +150,7 @@ body, html {
 .card a {
 	text-decoration: none;
 	color: #141414;
-}
+}*/
 .segera	{
 	text-align: center;
 	margin-top: 100px;

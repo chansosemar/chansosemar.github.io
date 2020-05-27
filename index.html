@@ -6,20 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Chanso Roadmap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="img/iconweb.png" />
     <link rel="stylesheet" href="style/style.css">
 
   </head>
   <body>
 <!-- nav and hero -->
-    <div class="nav-container">
-      <div class="nav-link">
-        <a href="index.html" id="home"><img src="img/iconweb.png" alt=""></a>
-        <a href="#roadmap">Roadmap</a>
-        <a href="#portfolio" >Portfolio</a>
-        <a href="#contact" >Contact</a>
+   
+     <div class="topnav" id="myTopnav">
+      <a href="#home"><img src="img/iconweb.png" alt=""></a>
+      <div class="dropdown">
+        <button class="dropbtn">Roadmap
+        <i class="fa fa-caret-down"></i>
+        </button>
+          <div class="dropdown-content">
+            <a href="#">Frontend</a>
+            <a href="#" style="opacity: 0.2;">Backend</a>
+            <a href="#" style="opacity: 0.2;">Android</a>
+            <a href="#" style="opacity: 0.2;">...</a>
+          </div>
       </div>
-    </div>
+      <a href="#news">Portfolio</a>
+      <a href="#contact">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div> 
     <div class="hero">
         <span>
           <h1>Developer Roadmap</h1>
@@ -62,6 +73,7 @@
     <footer>
       <p>&copy; copyright 2020 || Chanso</p>
     </footer>
+    <script src="script/script.js"></script>
   </body>
 </html>
 
